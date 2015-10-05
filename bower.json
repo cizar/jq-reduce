@@ -1,0 +1,19 @@
+{
+  "name": "jq-reduce",
+  "version": "0.0.2",
+  "homepage": "https://github.com/cizar/jq-reduce",
+  "authors": [
+    "Cesar Kastli <cesarkastli@gmail.com>"
+  ],
+  "description": "jQuery reduce plugin",
+  "main": "src/jquery.reduce.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
