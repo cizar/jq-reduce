@@ -1,6 +1,6 @@
 {
   "name": "jq-reduce",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/cizar/jq-reduce",
   "authors": [
     "Cesar Kastli <cesarkastli@gmail.com>"

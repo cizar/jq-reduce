@@ -1,3 +1,7 @@
+### 0.0.3
+
+* The current iteration item is the default context
+
 ### 0.0.2
 
 * CommonJS module aware
