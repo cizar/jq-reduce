@@ -6,7 +6,7 @@
     "Cesar Kastli <cesarkastli@gmail.com>"
   ],
   "description": "jQuery reduce plugin",
-  "main": "src/jquery.reduce.js",
+  "main": "jquery.reduce.js",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
