@@ -1,6 +1,6 @@
 {
   "name": "jq-reduce",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "jQuery reduce plugin",
   "main": "jquery.reduce.js",
   "scripts": {
