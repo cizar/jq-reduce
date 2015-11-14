@@ -13,15 +13,19 @@
     $ = require('jquery');
   }
 
-  $[pluginName] = function(collection, iterator, initial, context) {
+  $[pluginName] = function(collection, iterator, initialValue, context) {
+    if (undefined === initialValue) {
+      initialValue = collection[0]
+      collection = collection.slice(1);
+    }
     $.each(collection, function(index, current) {
-      initial = iterator.call(context || current, initial, current, index);
+      initialValue = iterator.call(context || current, initialValue, current, index);
     });
-    return initial;
+    return initialValue;
   };
 
-  $.fn[pluginName] = function(iterator, initial, context) {
-    return $[pluginName](this, iterator, initial, context);
+  $.fn[pluginName] = function(iterator, initialValue, context) {
+    return $[pluginName](this, iterator, initialValue, context);
   };
 
 }(this));
